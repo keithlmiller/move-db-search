@@ -1,0 +1,46 @@
+.movie-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: #eeeeee;
+
+  .search-bar {
+    width: 100%;
+    padding-bottom: 10px;
+
+    .search-input {
+      width: 90%;
+      height: 50px;
+      font-size: 1.5rem;
+    }
+  }
+
+  .results {
+    padding: 10px;
+    overflow: scroll;
+  }
+
+  .btn {
+    color: white;
+    background-color: red;
+    padding: 12px 24px;
+    border: none;
+    text-decoration: none;
+  }
+
+  @media (min-width: 1024px) {
+    .search-bar {
+      .search-input {
+        width: auto;
+        height: 25px;
+        font-size: 1rem;
+      }
+    }
+
+    .results {
+      max-width: 960px;
+    }
+  }
+}

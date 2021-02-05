@@ -1,0 +1,26 @@
+.movie {
+  display: flex;
+  margin: 0 0 20px;
+  align-items: flex-start;
+  background: #fff;
+  padding: 15px;
+
+  .movie-details {
+    text-align: left;
+    margin-left: 15px;
+
+    .movie-title {
+      margin: 2px 0;
+    }
+
+    .release-year,
+    .rating {
+      font-size: 0.8rem;
+      color: #777;
+    }
+
+    .stars {
+      margin-right: 10px;
+    }
+  }
+}
